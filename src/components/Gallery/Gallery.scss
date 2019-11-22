@@ -1,0 +1,36 @@
+.Gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .Gallery_inner{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.ButtonWrapper {
+    text-align: center;
+    font-size: 2rem;
+
+      
+  button {
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.8rem;
+    background: rgb(38, 187, 155);
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    &:hover {
+        background: rgb(33, 138, 115);
+    }
+  }
+    
+  }
